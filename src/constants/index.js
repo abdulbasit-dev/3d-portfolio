@@ -42,6 +42,12 @@ export const navLinks = [
     id: 'contact',
     title: 'Contact',
   },
+  {
+    id: 'cv',
+    title: 'My CV',
+    href: 'https://drive.google.com/uc?export=download&id=1Qvtlo2FxGILh6_y0_F-urqXgbnYzXYJz',
+    download: true,
+  },
 ];
 
 const services = [
@@ -246,8 +252,7 @@ const projects = [
   },
   {
     name: 'Smart Contract System',
-    description:
-      'A comprehensive Real State platform Admin Panel. That allow admins to make contracts and manage payments.',
+    description: 'A comprehensive Real State platform Admin Panel. That allow admins to make contracts and manage payments.',
     tags: [
       {
         name: 'laravel',

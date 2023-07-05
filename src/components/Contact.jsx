@@ -41,18 +41,26 @@ const Contact = () => {
     //    }
     //  );
 
+    // template_za0c2qd
+    // service_6bzwgo6
+    // user_EsXxuYomDwAzvrHvWnB75;
+    // a45770ee045149d2f89305196006c495
+
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        // import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+        'service_y4ob9ae',
+        // import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'template_za0c2qd',
         {
-          from_name: form.name,
-          to_name: 'JavaScript Mastery',
-          from_email: form.email,
-          to_email: 'sujata@jsmastery.pro',
+          name: form.name,
+          to_name: 'Abdulbasit Salah',
+          email: form.email,
+          to_email: 'abdullbasit99salah@gmail.com',
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        // import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        'user_EsXxuYomDwAzvrHvWnB75'
       )
       .then(
         () => {
