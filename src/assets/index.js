@@ -25,17 +25,17 @@ import laravel from './tech/laravel.png';
 import php from './tech/php.png';
 import githubTech from './tech/github.png';
 import mysql from './tech/mysql.png';
+import firebase from './tech/firebase.png';
 
-import meta from './company/meta.png';
-import shopify from './company/shopify.png';
-import starbucks from './company/starbucks.png';
-import tesla from './company/tesla.png';
 import newroz from './company/newroz.svg';
+import freelancer from './company/freelancer.png';
 import jiasaz from './company/jiasaz.svg';
 
-import carrent from './carrent.png';
-import jobit from './jobit.png';
-import tripguide from './tripguide.png';
+import dalkurd from './projects/dalkurd.png';
+import tktatiq from './projects/tktatiq.png';
+import smartcontractsystem from './projects/smartcontractsystem.png';
+import nawand from './projects/nawand.png';
+import softlecture from './projects/softlecture.png';
 
 export {
   logo,
@@ -59,13 +59,7 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  dalkurd,
   bootstrap,
   laravel,
   php,
@@ -73,4 +67,10 @@ export {
   mysql,
   newroz,
   jiasaz,
+  tktatiq,
+  smartcontractsystem,
+  nawand,
+  firebase,
+  freelancer,
+  softlecture,
 };
