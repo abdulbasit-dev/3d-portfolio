@@ -96,10 +96,10 @@ const technologies = [
     name: 'Bootstrap',
     icon: bootstrap,
   },
-  {
-    name: 'Tailwind CSS',
-    icon: tailwind,
-  },
+//   {
+//     name: 'Tailwind CSS',
+//     icon: tailwind,
+//   },
   {
     name: 'figma',
     icon: figma,
