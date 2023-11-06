@@ -21,6 +21,7 @@ import {
   newroz,
   jiasaz,
   tktatiq,
+  ytcmsVintv,
   dalkurd,
   smartcontractsystem,
   nawand,
@@ -45,7 +46,7 @@ export const navLinks = [
   {
     id: 'cv',
     title: 'My CV',
-    href: 'https://drive.google.com/uc?export=download&id=1Qvtlo2FxGILh6_y0_F-urqXgbnYzXYJz',
+    href: 'https://drive.google.com/uc?export=download&id=1ZwTpawAq9adsyB5ujo_U2uTpQBR-MQhP',
     download: true,
   },
 ];
@@ -248,7 +249,30 @@ const projects = [
       },
     ],
     image: tktatiq,
+    url: 'https://tktatiq.com',
     source_code_link: 'https://github.com/',
+  },
+  {
+    name: 'VIN Youtube CMS ',
+    description:
+      'VIN TV Admin Dashboard designed for managing artists, songs, and uploads. The system supports multiple roles and facilitates song management and artist administration.',
+    tags: [
+      {
+        name: 'laravel',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'php',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'bootstrap',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: ytcmsVintv,
+    // url: 'https://tktatiq.com',
+    // source_code_link: 'https://github.com/',
   },
   {
     name: 'Smart Contract System',
@@ -308,6 +332,7 @@ const projects = [
       },
     ],
     image: softlecture,
+    url: 'https://softlecture.vercel.app/',
     source_code_link: 'https://github.com/',
   },
 ];

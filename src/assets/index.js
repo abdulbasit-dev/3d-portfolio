@@ -33,6 +33,7 @@ import jiasaz from './company/jiasaz.svg';
 
 import dalkurd from './projects/dalkurd.png';
 import tktatiq from './projects/tktatiq.png';
+import ytcmsVintv from './projects/ytcmsVintv.png';
 import smartcontractsystem from './projects/smartcontractsystem.png';
 import nawand from './projects/nawand.png';
 import softlecture from './projects/softlecture.png';
@@ -68,6 +69,7 @@ export {
   newroz,
   jiasaz,
   tktatiq,
+  ytcmsVintv,
   smartcontractsystem,
   nawand,
   firebase,
